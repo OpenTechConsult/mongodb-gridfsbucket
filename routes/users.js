@@ -29,7 +29,7 @@ router.patch('/updateUserByName/:name', (req, res) => {
 
 // Update a user by its Id endpoint
 router.patch('/updateUserById/:id', (req, res) => {
-    res.send('Get a user by its Id endpoint');
+    res.send('Update a user by its Id endpoint');
 });
 
 // Delete a user by its Id endpoint
